@@ -1,0 +1,1 @@
+ java -jar example1-0.0.1-SNAPSHOT-jar-with-dependencies.jar
