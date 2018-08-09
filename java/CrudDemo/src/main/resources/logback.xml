@@ -15,7 +15,7 @@
 		<appender-ref ref="STDOUT" />
 	</logger>
 	
-	<logger name="com.shashank.crudemo" level="debug" additivity="false">
+	<logger name="com.shashank" level="debug" additivity="false">
 		<appender-ref ref="STDOUT" />
 	</logger>
 	

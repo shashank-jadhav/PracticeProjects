@@ -33,4 +33,9 @@ public class BookServiceImpl implements BookService {
 				.orElseThrow(() -> new InvaliIdException("Supplied id : " + bookId + " is invalid."));
 	}
 
+	@Override
+	public Book getBookByBookName(String bookName) {
+		return bookRepository.getBookByBookName(bookName);
+	}
+
 }

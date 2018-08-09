@@ -1,6 +1,5 @@
 package com.shashank.dto;
 
-
 public class ResponseBuilder {
 
 	private int status;
@@ -8,6 +7,7 @@ public class ResponseBuilder {
 	private String message;
 
 	public ResponseBuilder(Builder builder) {
+
 		this.status = builder.status;
 		this.data = builder.data;
 		this.message = builder.message;

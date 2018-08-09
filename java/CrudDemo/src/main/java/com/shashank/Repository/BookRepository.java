@@ -8,4 +8,5 @@ import com.shashank.model.Book;
 @Repository
 public interface BookRepository extends JpaRepository<Book, Long> {
 
+	public Book getBookByBookName(String bookName);
 }
